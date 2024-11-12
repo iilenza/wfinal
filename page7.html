@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - The VI Festival of National Sports Has Started in Astana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <a class="navbar-brand" href="index.html">Ferrari News</a>
+        <div class="ms-auto">
+            <button id="theme-toggle" class="btn btn-secondary">Toggle Theme</button>
+        </div>
+    </header>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="img/news7.jpeg" alt="Opening of the VI Festival of National Sports" class="img-fluid mb-4" style="width: 100%; border-radius: 5px;">
+                <h1>The VI Festival of National Sports Has Started in Astana</h1>
+                <p class="text-muted">Date: 2024-11-02 | Category: International Sports</p>
+                <p>
+                    The grand opening of the VI Festival of National Sports took place at the Kazanat Hippodrome in Astana. Over five days, more than 1,300 people will compete in 11 types of sports.
+                </p>
+                <p>
+                    Opening the event, Speaker of the Mazhilis of Parliament, Chairman of the Amanat Party, Yerlan Koshanov, noted that, with the support of the state, national sports are actively developing in the country.
+                </p>
+                <p>
+                    "The popularization of national culture and the development of national sports are always at the heart of the Head of State Kassym-Jomart Tokayev's focus. He spoke about their importance for the proper upbringing of young people at the National Kurultai held in Turkestan. National sports are a living reflection of our history and the uniqueness of the Kazakh people. By promoting them, we preserve our spiritual heritage for future generations," said Koshanov.
+                </p>
+                <p>
+                    The Speaker of the Mazhilis highlighted the importance of the President's initiative to hold the V World Nomad Games in Kazakhstan next year. International competitions will bring together athletes from many countries and showcase the great potential of modern Kazakhstan.
+                </p>
+                <p>
+                    Over the next five days of the festival, athletes will test their skills in kokpar, asyk atu, toguz kumalak, zhekpe-zhek, zhamby atu, tenge alu, and other national games.
+                </p>
+                <p>
+                    A significant event within the festival will be the national equestrian marathon "Uly Dala Zhorygy," organized by the JORYQ Equestrian Federation for the second consecutive year. Over 14 days, 20 teams of riders from all regions of the country will cover a distance of 1,300 kilometers from the capital to Turkestan.
+                </p>
+                <p>
+                    "The equestrian marathon was held for the first time last year with the support of the Amanat Party. It was a landmark and large-scale event that will have a lasting impact on the development of national equestrian sports in the country. It united all regions of our country. Participants of the marathon will face a challenging journey along historic steppe routes. In addition to sporting achievements, this lays a solid foundation for the development of ethno-tourism and the promotion of our nation’s cultural heritage," emphasized Yerlan Koshanov.
+                </p>
+                <p>
+                    The festival is organized by the Ministry of Tourism and Sports, the Akimat of Astana, the Amanat Party, JSC "Samruk-Kazyna" National Welfare Fund, the Association of National Sports, and the Foundation for the Support of Tourism and Sports.
+                </p>
+                <div class="d-flex align-items-center mt-4">
+
+                    <span id="reading-time" class="reading-time" style="color: #7F8188;"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Related Articles</h5>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item"><a href="page2.html">Kazakhstan Named the Most Innovative Company</a></li>
+                    <li class="list-group-item"><a href="page3.html">Kazakhstan Hockey Team Defeats Opponents at Asian Championship in Almaty</a></li>
+                    <li class="list-group-item"><a href="page4.html">New NU President: Renowned International Expert</a></li>
+                </ul>
+    
+                <h5>Most Popular</h5>
+                <ul id="popular-articles" class="list-group">
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer bg-dark text-center text-light p-3">
+        <div class="container">
+            <p class="mb-1">Follow us on social media:</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+            <p class="mt-3">&copy; Alena Zinchenko, Aruzhan Saparkhankizi, Farida Nurkhisa, IT-2306. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+<script>
+    function calculateReadingTime(content) {
+        const wordsPerMinute = 200;
+        const words = content.split(" ").length;
+        const readingTime = Math.ceil(words / wordsPerMinute);
+        return `${readingTime} min read`;
+    }
+
+    const articleContent = `
+        The grand opening of the VI Festival of National Sports took place at the Kazanat Hippodrome in Astana. Over the course of five days, more than 1,300 participants will compete in 11 types of sports.
+        Opening the event, Speaker of the Mazhilis of Parliament and Chairman of the Amanat Party, Yerlan Koshanov, emphasized that national sports are actively developing in the country with state support.
+        "The popularization of national culture and the development of national sports are always at the heart of the Head of State Kassym-Jomart Tokayev's focus. He spoke about their importance for the proper upbringing of young people at the National Kurultai held in Turkestan. National sports are a living reflection of our history and the uniqueness of the Kazakh people. By promoting them, we preserve our spiritual heritage for future generations," said Koshanov.
+        The Speaker of the Mazhilis highlighted the importance of the President's initiative to host the V World Nomad Games in Kazakhstan next year. The international competitions will bring together athletes from numerous countries and showcase the vast potential of modern Kazakhstan.
+        During the festival, athletes will try their hand at kokpar, asyk atu, toguz kumalak, zhekpe-zhek, zhamby atu, tenge alu, and other national games over the next five days.
+        A significant event within the festival will be the national equestrian marathon "Uly Dala Zhorygy," organized by the JORYQ Equestrian Federation for the second year in a row. Over 14 days, 20 teams of riders from all regions of the country will cover a distance of 1,300 kilometers from the capital to Turkestan.
+        "The equestrian marathon was held for the first time last year with the support of the Amanat Party. It was a landmark and large-scale event that will have a lasting impact on the development of national equestrian sports in the country. It united all regions of our country. Participants of the marathon will face a challenging journey along historic steppe routes. In addition to sporting achievements, this lays a solid foundation for the development of ethno-tourism and the promotion of our nation’s cultural heritage," emphasized Yerlan Koshanov.
+        The festival is organized by the Ministry of Tourism and Sports, the Akimat of Astana, the Amanat Party, JSC "Samruk-Kazyna" National Welfare Fund, the Association of National Sports, and the Foundation for the Support of Tourism and Sports.
+    `;
+
+    const readingTimeText = calculateReadingTime(articleContent);
+    document.getElementById("reading-time").innerHTML += ` ${readingTimeText}`;
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const jsonData = document.getElementById('json-data').textContent;
+    const articles = JSON.parse(jsonData).articles;
+    const popularArticlesContainer = document.getElementById('popular-articles');
+    function renderPopularArticles() {
+        const mostPopularArticles = articles.sort((a, b) => b.views - a.views).slice(0, 3);
+        popularArticlesContainer.innerHTML = '';
+        mostPopularArticles.forEach(article => {
+            const listItem = document.createElement('li');
+            listItem.classList.add('list-group-item', 'popular-article-item');
+
+            const link = document.createElement('a');
+            link.href = `page${article.id}.html`;
+            link.textContent = article.title;
+            link.style.textDecoration = 'none';
+            link.classList.add('popular-article-link');
+
+            listItem.appendChild(link);
+            popularArticlesContainer.appendChild(listItem);
+        });
+    }
+    renderPopularArticles();
+});
+
+</script>
+
+<script type="application/json" id="json-data">
+    {
+    "articles": [
+        { "id": 1, "title": "Kazakhstan has officially joined World Boxing", "date": "2024-11-10", "category": "World", "views": 1200, "content": "Content of News 1", "image": "img/news1.jpeg" },
+        { "id": 2, "title": "The most innovative company was named in Kazakhstan", "date": "2024-11-09", "category": "Technology", "views": 800, "content": "Content of News 2", "image": "img/news2.jpeg" },
+        { "id": 3, "title": "Kazakhstan national hockey team defeated rivals for TEA in Almaty", "date": "2024-11-08", "category": "Sports", "views": 1500, "content": "Content of News 3", "image": "img/news3.jpeg" },
+        { "id": 4, "title": "The new president of NU: a recognized international expert in the academic and scientific field", "date": "2024-11-07", "category": "Education", "views": 676, "content": "Content of News 4", "image": "img/news4.jpeg" },
+        { "id": 5, "title": "13 unique operations. The days of the UDP medical center were held in the Abai region", "date": "2024-11-09", "category": "Healthcare", "views": 231, "content": "Content of News 5", "image": "img/news5.jpeg" },
+        { "id": 6, "title": "An international theater festival has opened in Shymkent", "date": "2024-11-07", "category": "Art and culture", "views": 97, "content": "Content of News 6", "image": "img/news6.jpeg" },
+        { "id": 7, "title": "The VI festival of national sports has started in Astana", "date": "2024-11-02", "category": "International Sports", "views": 2098, "content": "Content of News 7", "image": "img/news7.jpeg" },
+        { "id": 8, "title": "The Ministry of Defense named the cause of the helicopter crash", "date": "2024-11-07", "category": "Leadership", "views": 889, "content": "Content of News 8", "image": "img/news8.jpeg" },
+        { "id": 9, "title": "World Nomad Games in Astana: what you need to know and how to buy tickets", "date": "2024-11-05", "category": "Festivals and Events", "views": 341, "content": "Content of News 9", "image": "img/news9.jpeg" },
+        { "id": 10, "title": "Nuclear medicine technologies for cancer treatment are being introduced in Kazakhstan", "date": "2024-11-06", "category": "Medical Advances", "views": 156, "content": "Content of News 10", "image": "img/news10.jpeg" }
+    ]
+    }
+</script>
+<script src="script.js"></script>

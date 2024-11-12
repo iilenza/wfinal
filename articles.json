@@ -1,0 +1,85 @@
+{
+    "articles": [
+        { "id": 1, 
+        "title": "Kazakhstan has officially joined World Boxing", 
+        "date": "2024-11-10", 
+        "category": "World", 
+        "views": 1200, 
+        "content": "Content of News 1", 
+        "image": "img/news1.jpeg" 
+        },
+        { "id": 2, 
+        "title": "The most innovative company was named in Kazakhstan", 
+        "date": "2024-11-09", 
+        "category": "Technology", 
+        "views": 800, 
+        "content": "Content of News 2", 
+        "image": "img/news2.jpeg" 
+        },
+        { "id": 3, 
+        "title": "Kazakhstan national hockey team defeated rivals for TEA in Almaty", 
+        "date": "2024-11-08", 
+        "category": "Sports", 
+        "views": 1500, 
+        "content": "Content of News 3", 
+        "image": "img/news3.jpeg" 
+        },
+        { "id": 4, 
+        "title": "The new president of NU: a recognized international expert in the academic and scientific field", 
+        "date": "2024-11-07", 
+        "category": "Education", 
+        "views": 676, 
+        "content": "Content of News 4", 
+        "image": "img/news4.jpeg" 
+        },
+        { "id": 5, 
+        "title": "13 unique operations. The days of the UDP medical center were held in the Abai region", 
+        "date": "2024-11-09", 
+        "category": "Healthcare", 
+        "views": 231, 
+        "content": "Content of News 5", 
+        "image": "img/news5.jpeg" 
+        },
+        { "id": 6, 
+        "title": "An international theater festival has opened in Shymkent", 
+        "date": "2024-11-07", 
+        "category": "Art and culture", 
+        "views": 97, 
+        "content": "Content of News 6", 
+        "image": "img/news6.jpeg" 
+        },
+        { "id": 7, 
+        "title": "The VI festival of national sports has started in Astana", 
+        "date": "2024-11-02", 
+        "category": "International Sports", 
+        "views": 2098, 
+        "content": "Content of News 7", 
+        "image": "img/news7.jpeg" 
+        },
+        { "id": 8, 
+        "title": "The Ministry of Defense named the cause of the helicopter crash", 
+        "date": "2024-11-07", 
+        "category": "Leadership", 
+        "views": 889, 
+        "content": "Content of News 8", 
+        "image": "img/news8.jpeg" 
+        },
+        { "id": 9, 
+        "title": "World Nomad Games in Astana: what you need to know and how to buy tickets", 
+        "date": "2024-11-05", 
+        "category": "Festivals and Events", 
+        "views": 341, 
+        "content": "Content of News 9", 
+        "image": "img/news9.jpeg" 
+        },
+        { "id": 10, 
+        "title": "Nuclear medicine technologies for cancer treatment are being introduced in Kazakhstan", 
+        "date": "2024-11-06", 
+        "category": "Medical Advances", 
+        "views": 156, 
+        "content": "Content of News 10", 
+        "image": "img/news10.jpeg" 
+        }
+    ]
+  }
+  

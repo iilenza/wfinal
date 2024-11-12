@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - Medical Campaign "Days of the Presidential Medical Center" Held in Abai Region</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <a class="navbar-brand" href="index.html">Ferrari News</a>
+        <div class="ms-auto">
+            <button id="theme-toggle" class="btn btn-secondary">Toggle Theme</button>
+        </div>
+    </header>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="img/news5.jpeg" alt="Medical Campaign in Abai Region" class="img-fluid mb-4" style="width: 100%; border-radius: 5px;">
+                
+                <h1>Medical Campaign "Days of the Presidential Medical Center" Held in Abai Region</h1>
+                <p class="text-muted">Date: 2024-11-09 | Category: Healthcare</p>
+    
+                <p>
+                    The Abai region hosted the medical campaign "Days of the Presidential Medical Center." Over three days, doctors from the hospital and National Hospital conducted 279 consultations and masterclasses, along with 17 surgeries, 13 of which were unique.
+                </p>
+                <p>
+                    The Abai region became the 13th region to host this campaign.
+                </p>
+                <p>
+                    As a result of the event, a memorandum of cooperation was signed between the Akimat of the Abai region and the Presidential Medical Center. The document was signed by the Head of the PMC, Alexey Tsoy, and the region's head, Nurlan Urankhaev.
+                </p>
+                <p>
+                    The head of the region emphasized that the signed memorandum will significantly positively impact the development of the region's healthcare sector in the future.
+                </p>
+                <p>
+                    "To improve the quality of medical care for the region’s population, we prioritize enhancing specialist qualifications, acquiring advanced experience, and technologies. In this regard, it is very important to work with the country's leading clinics, particularly the Presidential Medical Center."
+                </p>
+                <p>
+                    "This memorandum opens up opportunities for joint development in medical technologies. Our cooperation will be aimed at sharing experience and supporting the professional growth of doctors. I am confident that this strategic partnership will significantly improve the quality of medical services and contribute to the introduction of modern healthcare technologies," noted the head of the region.
+                </p>
+                <p>
+                    In turn, the head of the PMC, Alexey Tsoy, emphasized that the signed memorandum should open a new chapter in the development of effective dialogue and strengthening partnerships, as well as expanding scientific and practical ties for the benefit of citizens' health.
+                </p>
+                <p>
+                    "In each region, we perform up to 30 surgeries during a single visit. Further, we have roadmaps in place for the remaining regions. We systematically train specialists not only in the healthcare system but also in preschool education, sanitary-epidemiological control, and creating a favorable environment in organizations. It’s a comprehensive effort, and we see that at the regional level, in the regions where we have already been, local doctors are already applying these previously unused technologies in practice. There is a positive effect, and feedback from the population indicates that, thanks to improved qualifications, it is no longer necessary to leave the region to receive high-tech medical assistance on site. Therefore, we hope that in Semey, where there are highly qualified personnel and a medical university with strong traditions, this program will work most effectively, and doctors are ready to implement these methods," said Alexey Tsoy in his speech.
+                </p>
+    
+                <div class="d-flex align-items-center mt-4">
+
+                    <span id="reading-time" class="reading-time" style="color: #7F8188;"></span>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <h5>Related Articles</h5>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item"><a href="page2.html">Kazakhstan Named the Most Innovative Company</a></li>
+                    <li class="list-group-item"><a href="page3.html">Kazakhstan Hockey Team Defeats Opponents at Asian Championship in Almaty</a></li>
+                    <li class="list-group-item"><a href="page4.html">New NU President: Renowned International Expert</a></li>
+                </ul>
+    
+                <h5>Most Popular</h5>
+                <ul id="popular-articles" class="list-group">
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="footer bg-dark text-center text-light p-3">
+        <div class="container">
+            <p class="mb-1">Follow us on social media:</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+            <p class="mt-3">&copy; Alena Zinchenko, Aruzhan Saparkhankizi, Farida Nurkhisa, IT-2306. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+<script>
+    function calculateReadingTime(content) {
+        const wordsPerMinute = 200;
+        const words = content.split(" ").length;
+        const readingTime = Math.ceil(words / wordsPerMinute);
+        return `${readingTime} min read`;
+    }
+
+    const articleContent = `
+        The Abai region hosted the medical campaign "Days of the Presidential Medical Center." Over three days, doctors from the hospital and National Hospital conducted 279 consultations and masterclasses, along with 17 surgeries, 13 of which were unique.
+
+        The Abai region became the 13th region to host this campaign.
+
+        As a result of the event, a memorandum of cooperation was signed between the Akimat of the Abai region and the Presidential Medical Center. The document was signed by the Head of the PMC, Alexey Tsoy, and the region's head, Nurlan Urankhaev.
+
+        The head of the region emphasized that the signed memorandum will significantly positively impact the development of the region's healthcare sector in the future.
+
+        "To improve the quality of medical care for the region’s population, we prioritize enhancing specialist qualifications, acquiring advanced experience, and technologies. In this regard, it is very important to work with the country's leading clinics, particularly the Presidential Medical Center."
+
+        "This memorandum opens up opportunities for joint development in medical technologies. Our cooperation will be aimed at sharing experience and supporting the professional growth of doctors. I am confident that this strategic partnership will significantly improve the quality of medical services and contribute to the introduction of modern healthcare technologies," noted the head of the region.
+
+        In turn, the head of the PMC, Alexey Tsoy, emphasized that the signed memorandum should open a new chapter in the development of effective dialogue and strengthening partnerships, as well as expanding scientific and practical ties for the benefit of citizens' health.
+
+        "In each region, we perform up to 30 surgeries during a single visit. Further, we have roadmaps in place for the remaining regions. We systematically train specialists not only in the healthcare system but also in preschool education, sanitary-epidemiological control, and creating a favorable environment in organizations. It’s a comprehensive effort, and we see that at the regional level, in the regions where we have already been, local doctors are already applying these previously unused technologies in practice. There is a positive effect, and feedback from the population indicates that, thanks to improved qualifications, it is no longer necessary to leave the region to receive high-tech medical assistance on site. Therefore, we hope that in Semey, where there are highly qualified personnel and a medical university with strong traditions, this program will work most effectively, and doctors are ready to implement these methods," said Alexey Tsoy in his speech.
+    `;
+
+
+    const readingTimeText = calculateReadingTime(articleContent);
+    document.getElementById("reading-time").innerHTML += ` ${readingTimeText}`;
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const jsonData = document.getElementById('json-data').textContent;
+    const articles = JSON.parse(jsonData).articles;
+    const popularArticlesContainer = document.getElementById('popular-articles');
+    function renderPopularArticles() {
+        const mostPopularArticles = articles.sort((a, b) => b.views - a.views).slice(0, 3);
+        popularArticlesContainer.innerHTML = '';
+        mostPopularArticles.forEach(article => {
+            const listItem = document.createElement('li');
+            listItem.classList.add('list-group-item', 'popular-article-item');
+
+            const link = document.createElement('a');
+            link.href = `page${article.id}.html`;
+            link.textContent = article.title;
+            link.style.textDecoration = 'none';
+            link.classList.add('popular-article-link');
+
+            listItem.appendChild(link);
+            popularArticlesContainer.appendChild(listItem);
+        });
+    }
+    renderPopularArticles();
+});
+</script>
+
+<script type="application/json" id="json-data">
+    {
+      "articles": [
+        { "id": 1, "title": "Kazakhstan has officially joined World Boxing", "date": "2024-11-10", "category": "World", "views": 1200, "content": "Content of News 1", "image": "img/news1.jpeg" },
+        { "id": 2, "title": "The most innovative company was named in Kazakhstan", "date": "2024-11-09", "category": "Technology", "views": 800, "content": "Content of News 2", "image": "img/news2.jpeg" },
+        { "id": 3, "title": "Kazakhstan national hockey team defeated rivals for TEA in Almaty", "date": "2024-11-08", "category": "Sports", "views": 1500, "content": "Content of News 3", "image": "img/news3.jpeg" },
+        { "id": 4, "title": "The new president of NU: a recognized international expert in the academic and scientific field", "date": "2024-11-07", "category": "Education", "views": 676, "content": "Content of News 4", "image": "img/news4.jpeg" },
+        { "id": 5, "title": "13 unique operations. The days of the UDP medical center were held in the Abai region", "date": "2024-11-09", "category": "Healthcare", "views": 231, "content": "Content of News 5", "image": "img/news5.jpeg" },
+        { "id": 6, "title": "An international theater festival has opened in Shymkent", "date": "2024-11-07", "category": "Art and culture", "views": 97, "content": "Content of News 6", "image": "img/news6.jpeg" },
+        { "id": 7, "title": "The VI festival of national sports has started in Astana", "date": "2024-11-02", "category": "International Sports", "views": 2098, "content": "Content of News 7", "image": "img/news7.jpeg" },
+        { "id": 8, "title": "The Ministry of Defense named the cause of the helicopter crash", "date": "2024-11-07", "category": "Leadership", "views": 889, "content": "Content of News 8", "image": "img/news8.jpeg" },
+        { "id": 9, "title": "World Nomad Games in Astana: what you need to know and how to buy tickets", "date": "2024-11-05", "category": "Festivals and Events", "views": 341, "content": "Content of News 9", "image": "img/news9.jpeg" },
+        { "id": 10, "title": "Nuclear medicine technologies for cancer treatment are being introduced in Kazakhstan", "date": "2024-11-06", "category": "Medical Advances", "views": 156, "content": "Content of News 10", "image": "img/news10.jpeg" }
+      ]
+    }
+</script>
+<script src="script.js"></script>

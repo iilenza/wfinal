@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - New NU President: Renowned International Expert</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <a class="navbar-brand" href="index.html">Ferrari News</a>
+        <div class="ms-auto">
+            <button id="theme-toggle" class="btn btn-secondary">Toggle Theme</button>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="img/news4.jpeg" alt="New NU President: Renowned International Expert" class="img-fluid mb-4" style="width: 100%; border-radius: 5px;">
+    
+                <h1>New NU President: Renowned International Expert</h1>
+                <p class="text-muted">Date: 2024-11-07 | Category: Education</p>
+    
+                <p>
+                    On June 28 of this year, the leading international university in Kazakhstan, NU, was headed by British Professor Waqar Ahmad. The new NU president shared his experience in developing global universities and the principles of his work in an interview.
+                </p>
+                <p>
+                    <strong>Professor Ahmad, tell us about yourself.</strong>
+                </p>
+                <p>
+                    My academic career began at Bradford University as an associate professor, then I worked at York, Leeds, Middlesex universities in the UK, and served as rector of Abu Dhabi University (UAE). I also held the position of head of the Department of Science in the Prime Minister's Office, which was the largest government department in the UK at the time. Additionally, I was an invited professor at University College London and am currently an honorary professor at the London School of Economics and York University. I was a member of the Economic and Social Research Council of the UK, the Higher Education Funding Council for England, and the National Health Service.
+                </p>
+                <p>
+                    <strong>You led Abu Dhabi University for almost 6 years, which became one of the best research universities according to the Times Higher Education rankings. Tell us a little about your role in achieving such success.</strong>
+                </p>
+                <p>
+                    This is the success of the entire university community—faculty, students, staff, and partners. Abu Dhabi University is also a young university, founded in 2003. We aimed to improve quality in all educational aspects. The outstanding results in the Times Higher Education rankings reflect extensive work, especially in research. We had a clear strategy that included alignment of governance and resources, specific requirements in the hiring, development, evaluation, and promotion of faculty, investments in talent development among faculty and staff, and an uncompromising commitment to comprehensive excellence.
+                </p>
+                <p>
+                    <strong>What challenges, in your opinion, is British higher education currently facing?</strong>
+                </p>
+                <p>
+                    The British higher education sector is facing challenges of such magnitude that they could seriously harm both academic excellence and the reputation of education. For a long time, the level of public funding for student education has not increased, while inflation has risen. This inevitably affects the quality of education. Additionally, the requirement to deny students the right to stay in the UK for two years after graduation has significantly impacted the ability to attract international students. As a result, the higher education sector is facing unprecedented financial problems: about three-quarters of universities expect a budget deficit this year. Universities in the USA, Australia, and other countries have gained an advantage.
+                </p>
+    
+                <div class="d-flex align-items-center mt-4">
+
+                    <span id="reading-time" class="reading-time" style="color: #7F8188;"></span>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <h5>Related Articles</h5>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item"><a href="page2.html">Kazakhstan Named the Most Innovative Company</a></li>
+                    <li class="list-group-item"><a href="page3.html">Kazakhstan Hockey Team Defeats Opponents at Asian Championship in Almaty</a></li>
+                    <li class="list-group-item"><a href="page4.html">New NU President: Renowned International Expert</a></li>
+                </ul>
+    
+                <h5>Most Popular</h5>
+                <ul id="popular-articles" class="list-group">
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="footer bg-dark text-center text-light p-3">
+        <div class="container">
+            <p class="mb-1">Follow us on social media:</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+            <p class="mt-3">&copy; Alena Zinchenko, Aruzhan Saparkhankizi, Farida Nurkhisa, IT-2306. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+<script>
+    function calculateReadingTime(content) {
+        const wordsPerMinute = 200;
+        const words = content.split(" ").length;
+        const readingTime = Math.ceil(words / wordsPerMinute);
+        return `${readingTime} min read`;
+    }
+
+    const articleContent = `
+        On June 28 of this year, the leading international university in Kazakhstan, NU, was headed by British Professor Waqar Ahmad. The new NU president shared his experience in developing global universities and the principles of his work in an interview.
+
+        Professor Ahmad, tell us about yourself.
+
+        My academic career began at Bradford University as an associate professor, then I worked at York, Leeds, Middlesex universities in the UK, and served as rector of Abu Dhabi University (UAE). I also held the position of head of the Department of Science in the Prime Minister's Office, which was the largest government department in the UK at the time. Additionally, I was an invited professor at University College London and am currently an honorary professor at the London School of Economics and York University. I was a member of the Economic and Social Research Council of the UK, the Higher Education Funding Council for England, and the National Health Service.
+
+        You led Abu Dhabi University for almost 6 years, which became one of the best research universities according to the Times Higher Education rankings. Tell us a little about your role in achieving such success.
+
+        This is the success of the entire university community—faculty, students, staff, and partners. Abu Dhabi University is also a young university, founded in 2003. We aimed to improve quality in all educational aspects. The outstanding results in the Times Higher Education rankings reflect extensive work, especially in research. We had a clear strategy that included alignment of governance and resources, specific requirements in the hiring, development, evaluation, and promotion of faculty, investments in talent development among faculty and staff, and an uncompromising commitment to comprehensive excellence.
+
+        What challenges, in your opinion, is British higher education currently facing?
+
+        The British higher education sector is facing challenges of such magnitude that they could seriously harm both academic excellence and the reputation of education. For a long time, the level of public funding for student education has not increased, while inflation has risen. This inevitably affects the quality of education. Additionally, the requirement to deny students the right to stay in the UK for two years after graduation has significantly impacted the ability to attract international students. As a result, the higher education sector is facing unprecedented financial problems: about three-quarters of universities expect a budget deficit this year. Universities in the USA, Australia, and other countries have gained an advantage.
+    `;
+
+
+    const readingTimeText = calculateReadingTime(articleContent);
+    document.getElementById("reading-time").innerHTML += ` ${readingTimeText}`;
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const jsonData = document.getElementById('json-data').textContent;
+    const articles = JSON.parse(jsonData).articles;
+    const popularArticlesContainer = document.getElementById('popular-articles');
+    function renderPopularArticles() {
+        const mostPopularArticles = articles.sort((a, b) => b.views - a.views).slice(0, 3);
+        popularArticlesContainer.innerHTML = '';
+        mostPopularArticles.forEach(article => {
+            const listItem = document.createElement('li');
+            listItem.classList.add('list-group-item', 'popular-article-item');
+
+            const link = document.createElement('a');
+            link.href = `page${article.id}.html`;
+            link.textContent = article.title;
+            link.style.textDecoration = 'none';
+            link.classList.add('popular-article-link');
+
+            listItem.appendChild(link);
+            popularArticlesContainer.appendChild(listItem);
+        });
+    }
+
+    renderPopularArticles();
+});
+</script>
+
+<script type="application/json" id="json-data">
+    {
+      "articles": [
+        { "id": 1, "title": "Kazakhstan has officially joined World Boxing", "date": "2024-11-10", "category": "World", "views": 1200, "content": "Content of News 1", "image": "img/news1.jpeg" },
+        { "id": 2, "title": "The most innovative company was named in Kazakhstan", "date": "2024-11-09", "category": "Technology", "views": 800, "content": "Content of News 2", "image": "img/news2.jpeg" },
+        { "id": 3, "title": "Kazakhstan national hockey team defeated rivals for TEA in Almaty", "date": "2024-11-08", "category": "Sports", "views": 1500, "content": "Content of News 3", "image": "img/news3.jpeg" },
+        { "id": 4, "title": "The new president of NU: a recognized international expert in the academic and scientific field", "date": "2024-11-07", "category": "Education", "views": 676, "content": "Content of News 4", "image": "img/news4.jpeg" },
+        { "id": 5, "title": "13 unique operations. The days of the UDP medical center were held in the Abai region", "date": "2024-11-09", "category": "Healthcare", "views": 231, "content": "Content of News 5", "image": "img/news5.jpeg" },
+        { "id": 6, "title": "An international theater festival has opened in Shymkent", "date": "2024-11-07", "category": "Art and culture", "views": 97, "content": "Content of News 6", "image": "img/news6.jpeg" },
+        { "id": 7, "title": "The VI festival of national sports has started in Astana", "date": "2024-11-02", "category": "International Sports", "views": 2098, "content": "Content of News 7", "image": "img/news7.jpeg" },
+        { "id": 8, "title": "The Ministry of Defense named the cause of the helicopter crash", "date": "2024-11-07", "category": "Leadership", "views": 889, "content": "Content of News 8", "image": "img/news8.jpeg" },
+        { "id": 9, "title": "World Nomad Games in Astana: what you need to know and how to buy tickets", "date": "2024-11-05", "category": "Festivals and Events", "views": 341, "content": "Content of News 9", "image": "img/news9.jpeg" },
+        { "id": 10, "title": "Nuclear medicine technologies for cancer treatment are being introduced in Kazakhstan", "date": "2024-11-06", "category": "Medical Advances", "views": 156, "content": "Content of News 10", "image": "img/news10.jpeg" }
+      ]
+    }
+</script>
+<script src="script.js"></script>
